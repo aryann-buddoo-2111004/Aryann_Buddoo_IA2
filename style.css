@@ -7,8 +7,8 @@
     --orange-500: rgb(245, 114, 97);
     --orange-700: rgb(225, 97, 81);
     --gradient-text: linear-gradient(to right, rgb(245, 114, 97), rgb(255, 255, 255));
-    --bg-main: url("../assets/images/background-mobile.png");
-    --squiggle-bottom: url("../assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg");
+    --bg-main: url("background-mobile.png");
+    --squiggle-bottom: url("pattern-squiggly-line-bottom-mobile-tablet.svg");
 }
 
 * {
@@ -25,11 +25,11 @@ body {
 
 
     background-image:
-        url("../assets/images/pattern-squiggly-line-top.svg"),
+        url("pattern-squiggly-line-top.svg"),
         var(--squiggle-bottom), 
-        url("../assets/images/pattern-circle.svg"),
-        url("../assets/images/pattern-circle.svg"),
-        url("../assets/images/pattern-lines.svg"),
+        url("pattern-circle.svg"),
+        url("pattern-circle.svg"),
+        url("pattern-lines.svg"),
         var(--bg-main);
     background-repeat: no-repeat;
     background-position: right top, left bottom, left top, right 15% top 50%, center top, center;
@@ -331,7 +331,7 @@ form .press {
     aspect-ratio: 600 / 280;
     margin: 3rem auto 0;
     padding: 24px;
-    background-image: url("../assets/images/pattern-ticket.svg");
+    background-image: url("pattern-ticket.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-align: left;
@@ -434,14 +434,14 @@ form .press {
 
 @media (min-width: 768px) {
     :root {
-        --bg-main: url("../assets/images/background-tablet.png");
+        --bg-main: url("background-tablet.png");
     }
 }
 
 @media (min-width: 1024px) {
     :root {
-        --bg-main: url("../assets/images/background-desktop.png");
-        --squiggle-bottom: url("../assets/images/pattern-squiggly-line-bottom-desktop.svg");
+        --bg-main: url("background-desktop.png");
+        --squiggle-bottom: url("pattern-squiggly-line-bottom-desktop.svg");
     }
 
     body {
