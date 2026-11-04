@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coding Conf | Info</title>
+       <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700;800&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../assets/images/logo-mark.svg" type="image/svg">
+    </head>
+    <body>
+        <header>
+            <img src="../assets/images/logo-full.svg" alt="Coding Conf Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Back to Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="event_form">
+                <h1>Your Journey to Coding Conf 2026 Starts Here!</h1>
+                <p>Secure your spot at next year's biggest coding conference.</p>
+            </section>
+
+            <form id="ticket-form" class="registration_form" novalidate>
+
+                <div class="form_info avatar_group">
+                    <p class="field_label">Upload Avatar</p>
+                    <label class="upload_area">
+                        <img src="../assets/images/icon-upload.svg" alt="">
+                        <span>Drag and drop or click to upload</span>
+                        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+                        <p id="file_test">No file selected</p>
+                    </label>
+                    <p id="avatar_message"><img src="../assets/images/icon-info.svg">
+                        Upload your photo (JPG or PNG, max size: 500KB).</p>
+                </div>
+
+                <div class="form_info">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <p id="fullname_message"></p>
+                </div>
+
+                <div class="form_info">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="example@email.com">
+                    <p id="email_message"></p>
+                </div>
+
+                <div class="form_info">
+                    <label for="github">GitHub Username</label>
+                    <input type="text" id="github" name="github" placeholder="@yourusername">
+                    <p id="github_message"></p>
+                </div>
+                <button type="submit" class="press">Generate My Ticket</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2026 Coding Conf by Aryann Buddoo #2111004. All rights reserved.</p>
+        </footer>
+          <script src="../js/validation.js"></script>
+    </body>
+</html>
+        
